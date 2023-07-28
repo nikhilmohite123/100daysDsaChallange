@@ -84,7 +84,7 @@ int main() {
     cout << "Enter the size of the array: ";
     cin >> arraySize;
 
-    int array[arraySize];
+    int array[100];
     cout << "Enter the elements of the array: ";
     for(int i = 0; i < arraySize; i++) {
         cin >> array[i];
